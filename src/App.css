@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body{
+  text-align: center;
+  background-color: gray;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +32,131 @@
 .App-link {
   color: #61dafb;
 }
+.AppSpan{
+  background-color: rgba(185, 55, 94, .9);
+  border-radius: 50px;
+  margin: 0 30px;
+  width: 50px;
+}
 
+.AppDivThings{
+  width: 80%;
+  margin: 100px 150px;
+  margin-top: -6%;
+}
+
+.AppThings{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+}
+
+.AppProducts{
+  border: 2px solid  rgba(250, 218, 227, 0.9);
+  border-radius: 5px;
+  box-shadow: 21px 20px 18px rgba(100, 72, 80, 0.9);
+  height: 400px;
+  margin: 100px 10px;
+  margin-bottom: -50px;
+  width: 260px;
+}
+
+.AppProducts li img{
+  border: 1px solid  rgba(48, 31, 36, 0.9);
+  border-radius: 5px;
+  box-shadow: 1px 7px 8px rgba(100, 72, 80, 0.9);
+  height: 250px;
+  margin: 10px 15px;
+  width: 230px;
+}
+
+a{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.AppProducts li h2{
+  color:  #000000;
+  font-family: 'Parisienne';
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 0 18px;
+
+}
+
+.AppProducts li p{
+  color:  #ffffff;
+  font-weight: lighter;
+  margin: 5px 18px;
+  border: black solid 1px;
+  border-radius: 6%;
+}
+
+.AppDiv{
+  padding: 1px;
+}
+
+.AppAdd{
+  color:  #602437;
+  font-family: 'Cookie';
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.AppLabel{
+  margin: 0 500px;
+}
+
+.AppInputs{
+  border: 1px solid #602437;
+  border-radius: 5px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+.AppButton{
+  background-color: #602437;
+  border: 1px solid #602437;
+  border-radius: 5px;
+  color: #f5f5f5;
+  cursor: pointer;
+  font-size: 18px;
+  height: 35px;
+  margin: 20px 674px;
+  width: 170px;
+}
+
+.AppButton:hover{
+  background-color: #f0a8a8;
+  color: #504c4d;
+}
+
+.AppFooter{
+  background-color: rgba(48, 43, 44, 0.9);
+  height: 55px;
+  width: 100%;
+}
+
+.AppFooter p{
+  color: #f5f5f5;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.App {
+  color: #f5f5f5;
+  font-family: 'Cookie', cursive;
+  font-size: 48px;
+  font-weight: lighter;
+  color: rgb(253, 212, 100);
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
